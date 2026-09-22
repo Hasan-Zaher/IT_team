@@ -441,6 +441,8 @@ body {
     transition: var(--transition-smooth);
     position: relative;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 .advice-card::before {
@@ -497,6 +499,8 @@ body {
     padding-top: 1rem;
     position: relative;
     z-index: 1;
+    margin-top: auto;
+    flex-shrink: 0;
 }
 
 .advice-avatar {
