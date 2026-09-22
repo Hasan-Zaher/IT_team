@@ -119,7 +119,7 @@ const softwarePresenters = [
     name: "حسن زاهر",
     role: "مهندس برميجات",
     image: "/images/hasan-zaher.jpg",
-    bio: "   خريج كلية الهندسة المعلوماتية تخصص هندسة البرمجيات. مبرمج Full Stack ",
+    bio: "   خريج كلية الهندسة المعلوماتية تخصص هندسة البرمجيات, مبرمج Full Stack, خبرة 3 سنوات في مجال العمل",
     socials: {
       instagram: "https://www.instagram.com/hasan.zaher.6",
       facebook: "https://www.facebook.com/share/1CKbkVx5bJ/",
@@ -169,7 +169,7 @@ const networks = [
     name: "أسعد عيدو",
     role: "عضو يقدم عرض في قسم الشبكات",
     image: "/images/asaad-eido.jpg",
-    bio: "مختص في الأمن السيبراني - يعمل لدى شركة.",
+    bio: "مختص في الأمن السيبراني -   خبرة سنتين في مجال العمل  .",
     socials: {
       linkedin: "https://www.linkedin.com/in/asaad-eido-515b20273",
     },
@@ -207,7 +207,7 @@ const organizers = [
   {
     id: 14,
     name: "محمد سينو",
-    role: "منظم في الوجهة الأكاديمية",
+   role: "عضو تنظيم",
     image: "/images/mohammad-sino.jpg",
     bio: "عضو تنظيمي في وجهتك الأكاديمية لهذا العام، عضو في فريق الهيئة الطلابية، سنة خبرة في الأعمال التطوعية التنظيمية والإعلامية.",
     socials: {
