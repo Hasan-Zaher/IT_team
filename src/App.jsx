@@ -5,11 +5,11 @@ import React, { useState, useEffect, useRef } from 'react';
 const dean = [
   {
     id: 0,
-    name: "د. مثنى القبيلي",
+    name: "  أ.د  مثنى القبيلي",
     role: "عميد كلية الهندسة المعلوماتية",
-    image: "/images/dr-mothanna-alkubeily.jpg",
-    bio: "أستاذ في جامعة اللاذقية، سورية، وعميد كلية الهندسة المعلوماتية. مشرف ركن المعلوماتية (Pillar Supervisor).",
-    socials: {},
+    image: "/images/dr-mothanna-alkubeily.jpg",  
+    bio:  " ​عميد كلية الهندسة المعلوماتية في جامعة اللاذقية، وأستاذ وخبير متخصص في الأمن السيبراني وبروتوكولات الشبكات. حاصل على درجة الدكتوراه من جامعة كومبيين للتكنولوجيا (UTC) في فرنسا.  ​يمتلك رصيداً يتجاوز 40 بحثاً علمياً منشوراً، وتتركز اهتماماته في شبكات المركبات (VANETs)، وشبكات الحساسات اللاسلكية (WSNs)، والشبكات المعرفة بالبرمجيات (SDN). يتميز بقربه من طلابه كأب موجه، وسعيه المستمر للارتقاء بالكلية على الصعيدين العملي والنظري.",
+      socials: {},
   },
 ];
 
@@ -97,7 +97,7 @@ const softwarePresenters = [
     image: "/images/zainab-jundi.jpg",
     bio: "سنة تالتة، مشاركة في عملين تطوعيين، أحب التعلم الذاتي وأدرس Front End.",
     socials: {
-      instagram: "https://www.instagram.com/alrajab.10",
+      instagram: "https://www.instagram.com/zi_kook_97?stkn=Z21ibmpxbjZuZzV1",
       facebook: "https://www.facebook.com/zainab.jundi/",
       linkedin: "https://www.linkedin.com/in/zainab-jundi-994606380",
     },
@@ -153,13 +153,13 @@ const competitiveProgramming = [
   },
   {
     id: 12,
-    name: "وافي بدوي",
+    name: "وافي بديوي",
     role: "عضو مقدم في قسم البرمجة التنافسية",
     image: "/images/oafi-badawi.png",
     bio: "طالب سنة ثانية تقني وكاتب المحتوى للمسابقة البرمجية Jr Penetration Tester / Red Teaming",
-    // socials: {
-    //   facebook: "https://www.facebook.com/share/1HN7wtNpmg/",
-    // },
+    socials: {
+      linkedin: "https://www.linkedin.com/in/wafy-anas-bdiwy?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    },
   },
 ];
 
@@ -217,7 +217,7 @@ const organizers = [
   },
   {
     id: 15,
-    name: "آلاء طابشو",
+    name: "آلاء طبشو",
     role: "عضو تنظيم",
     image: "/images/alaa-tabsho.jpg",
     bio: "سنة رابعة - متطوعة في وجهتك الأكاديمية وفي المسابقة السورية للبرمجة التنافسية.",
@@ -228,7 +228,7 @@ const organizers = [
   {
     id: 16,
     name: "علي قاهر",
-    role: "متطوع في الوجهة",
+    role: "  مسؤول الصوتيات  ",
     image: "/images/ali-qaher.jpg",
     bio: "متطوع في الوجهة سنة تانية.",
     socials: {
