@@ -42,11 +42,13 @@ const leaders = [
 const managers = [
   {
     id: 3,
-    name: "جون",
-    role: "مسؤول",
-    image: "",
-    bio: "عضو في فريق القيادة والمسؤولين عن الوجهة الأكاديمية.",
-    socials: {},
+    name: "جون رامي عبيد",
+    role: "مسؤول الميديا",
+        image: "/images/john.JPG",
+    bio: "عضو في فريق القيادة والمسؤولين عن الوجهة الأكاديمية, سنة ثالثة",
+  socials: {
+      instagram: "https://www.instagram.com/katulyx"
+    },
   },
   {
     id: 4,
@@ -121,7 +123,7 @@ const softwarePresenters = [
     socials: {
       instagram: "https://www.instagram.com/hasan.zaher.6",
       facebook: "https://www.facebook.com/share/1CKbkVx5bJ/",
-      linkedin: "https://www.linkedin.com/in/hasan-zaher-9b0a4b23a",
+      linkedin: "https://www.linkedin.com/in/hasan-zaher-705773212",
     },
   },
 ];
@@ -184,6 +186,21 @@ const networks = [
       linkedin: "https://www.linkedin.com/in/judy-aziz-eng",
     },
   },
+];
+
+const ai = [
+  {
+    id: 21,
+    name: "سام شادي صقر",
+    role: "عضو يقدم عرض في قسم الذكاء الصنعي",
+    image: "/images/sam.jpg",
+    bio: "مختص ب الAI & Data سنة تالتة بجامعة اللاذقية هندسة معلوماتية و سنة تانية ب جامعة الشعب الأميركية ",
+    socials: {
+      linkedin: "https://www.linkedin.com/in/sam-saker-ss",
+      facebook:"https://www.linkedin.com/in/sam-saker-ss"
+    },
+  }
+  
 ];
 
 const organizers = [
@@ -503,6 +520,15 @@ export default function App() {
       </h3>
       <TeamGrid
         members={networks}
+        activeId={activeId}
+        setActiveId={setActiveId}
+      />
+
+      <h3 className="subsection-title animate-fade-up">
+        الذكاء الصنعي
+      </h3>
+      <TeamGrid
+        members={ai}
         activeId={activeId}
         setActiveId={setActiveId}
       />
