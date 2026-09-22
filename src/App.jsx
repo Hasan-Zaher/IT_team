@@ -103,7 +103,7 @@ const softwarePresenters = [
   {
     id: 8,
     name: "عمر طه",
-    role: "عضو مقدم في قسم البرمجيات",
+    role: "   مهندسة برمجيات  ",
     image: "/images/omar-taha.jpg",
     bio: "خريج كلية الهندسة المعلوماتية تخصص هندسة البرمجيات. مختص بتطوير تطبيقات الموبايل باستخدام Flutter وبناء الحلول الرقمية.",
     socials: {
@@ -115,13 +115,13 @@ const softwarePresenters = [
   {
     id: 9,
     name: "حسن زاهر",
-    role: "عضو مقدم في قسم البرمجيات",
+    role: "مهندس برميجات",
     image: "/images/hasan-zaher.jpg",
-    bio: "طالب سنة ثانية، عضو تنظيمي في وجهتك الأكاديمية لهذه السنة، متطوع بنشاط في تنظيم الحركة الطلابية.",
+    bio: "   خريج كلية الهندسة المعلوماتية تخصص هندسة البرمجيات. مبرمج Full Stack ",
     socials: {
       instagram: "https://www.instagram.com/hasan.zaher.6",
       facebook: "https://www.facebook.com/share/1CKbkVx5bJ/",
-      linkedin: "https://www.linkedin.com/in/hasan-zaher-705773212",
+      linkedin: "https://www.linkedin.com/in/hasan-zaher-9b0a4b23a",
     },
   },
 ];
@@ -131,7 +131,7 @@ const competitiveProgramming = [
     id: 10,
     name: "مهند أوس",
     role: "عضو مقدم في قسم البرمجة التنافسية",
-    image: "",
+    image: "/images/muhanad-aos.png",
     bio: "سنة تانية - مشارك في جميع الأنشطة التطوعية في كلية الهندسة المعلوماتية.",
     socials: {
       instagram: "https://www.instagram.com/muhanadbaos/?hl=ar",
@@ -148,6 +148,16 @@ const competitiveProgramming = [
     socials: {
       facebook: "https://www.facebook.com/share/1HN7wtNpmg/",
     },
+  },
+  {
+    id: 12,
+    name: "وافي بدوي",
+    role: "عضو مقدم في قسم البرمجة التنافسية",
+    image: "/images/oafi-badawi.png",
+    bio: "طالب سنة ثانية تقني وكاتب المحتوى للمسابقة البرمجية Jr Penetration Tester / Red Teaming",
+    // socials: {
+    //   facebook: "https://www.facebook.com/share/1HN7wtNpmg/",
+    // },
   },
 ];
 
