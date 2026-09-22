@@ -410,6 +410,23 @@ export default function App() {
   const [showScrollTop, setShowScrollTop] = useState(false);
   const containerRef = useRef(null);
 
+  // الوضع الداكن: القيمة الأولية تأتي من السكربت في index.html
+  const [theme, setTheme] = useState(() =>
+    document.documentElement.dataset.theme === "dark" ? "dark" : "light"
+  );
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme;
+    try {
+      localStorage.setItem("theme", theme);
+    } catch {
+      // التخزين غير متاح (وضع خاص مثلاً) — نتجاهل
+    }
+  }, [theme]);
+
+  const toggleTheme = () =>
+    setTheme((t) => (t === "dark" ? "light" : "dark"));
+
   // أنيميشن الظهور عند التمرير + زر العودة للأعلى
   useEffect(() => {
     const els = document.querySelectorAll(".animate-fade-up");
@@ -549,7 +566,7 @@ export default function App() {
         <p
           className="animate-fade-up"
           style={{
-            color: "#64748b",
+            color: "var(--text-subtle)",
             maxWidth: 600,
             margin: "0 auto 1.5rem",
             fontSize: "1rem",
@@ -581,6 +598,16 @@ export default function App() {
       <p className="site-footer">
         الوجهة الأكاديمية • كلية الهندسة المعلوماتية
       </p>
+
+      <button
+        type="button"
+        className="theme-toggle"
+        onClick={toggleTheme}
+        aria-label={theme === "dark" ? "الوضع الفاتح" : "الوضع الداكن"}
+        title={theme === "dark" ? "الوضع الفاتح" : "الوضع الداكن"}
+      >
+        <i className={`fas ${theme === "dark" ? "fa-sun" : "fa-moon"}`}></i>
+      </button>
 
       <button
         type="button"
