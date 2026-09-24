@@ -167,9 +167,9 @@ const networks = [
   {
     id: 12,
     name: "أسعد عيدو",
-    role: "عضو يقدم عرض في قسم الشبكات",
+    role: "عضو يقدم عرض في   الامن السيبراني",
     image: "/images/asaad-eido.jpg",
-    bio: "مختص في الأمن السيبراني -   خبرة سنتين في مجال العمل  .",
+    bio: "Cyber security engineer | web pentester طالب سنة ثانية  مختبر اختراق ويب و تطبيقات اندرويد  مهندس امن سيبراني بناء و انشاء حلول أمنية و دفاعية ",
     socials: {
       linkedin: "https://www.linkedin.com/in/asaad-eido-515b20273",
     },
