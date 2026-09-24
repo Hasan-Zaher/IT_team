@@ -471,6 +471,8 @@ body {
 .social-links a.instagram:hover { background: #e1306c; }
 .social-links a.facebook:hover { background: #1877f2; }
 .social-links a.linkedin:hover { background: #0a66c2; }
+.social-links a.telegram:hover { background: #229ed9; }
+.social-links a.website:hover { background: var(--brand-navy); }
 
 /* =========================================================
    قسم النصائح

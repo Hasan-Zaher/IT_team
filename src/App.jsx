@@ -124,6 +124,8 @@ const softwarePresenters = [
       instagram: "https://www.instagram.com/hasan.zaher.6",
       facebook: "https://www.facebook.com/share/1CKbkVx5bJ/",
       linkedin: "https://www.linkedin.com/in/hasan-zaher-705773212",
+      telegram: "https://t.me/Hasan_Z6",
+      website: "https://www.hasanzaher.com/",
     },
   },
 ];
@@ -172,6 +174,7 @@ const networks = [
     bio: "Cyber security engineer | web pentester طالب سنة ثانية  مختبر اختراق ويب و تطبيقات اندرويد  مهندس امن سيبراني بناء و انشاء حلول أمنية و دفاعية ",
     socials: {
       linkedin: "https://www.linkedin.com/in/asaad-eido-515b20273",
+      telegram: "https://t.me/A0SAAD",
     },
   },
   {
@@ -375,6 +378,28 @@ function TeamCard({ member, isActive, onToggle }) {
                 aria-label="LinkedIn"
               >
                 <i className="fab fa-linkedin-in"></i>
+              </a>
+            )}
+            {member.socials.telegram && (
+              <a
+                href={member.socials.telegram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="telegram"
+                aria-label="Telegram"
+              >
+                <i className="fab fa-telegram"></i>
+              </a>
+            )}
+            {member.socials.website && (
+              <a
+                href={member.socials.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="website"
+                aria-label="Website"
+              >
+                <i className="fas fa-globe"></i>
               </a>
             )}
           </div>
