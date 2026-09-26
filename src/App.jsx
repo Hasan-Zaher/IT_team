@@ -24,6 +24,8 @@ const leaders = [
       linkedin: "https://www.linkedin.com/in/homamsrouji",
       facebook: "https://www.facebook.com/homam.sroji/",
       instagram: "https://www.instagram.com/homam1546/",
+      telegram: "https://t.me/Homam0",
+
     },
   },
   {
